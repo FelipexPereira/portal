@@ -56,6 +56,6 @@ export class SessionService {
   isAuthenticated(): boolean {
     const token = this.getToken();
 
-    return !!token;;
+    return !!token;;;
   }
 }

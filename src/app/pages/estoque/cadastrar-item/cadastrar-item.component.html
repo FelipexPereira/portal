@@ -1,0 +1,23 @@
+<po-page-default p-title="Cadastro">
+  <div class="po-md-12">
+    <div class="po-row">
+      <po-select
+        class="po-md-3"
+        name="select"
+        p-label="Tipo"
+        [p-options]="[
+          { label: 'Barbante', value: '1' },
+          { label: 'Fio', value: '2' },
+          { label: 'Malha', value: '3' }
+        ]"
+      >
+      </po-select>
+      <po-input name="input" p-label="Modelo" class="po-md-9"></po-input>
+    </div>
+
+    <div class="po-row">
+      <po-number name="number" p-label="Peso" class="po-md-3"> </po-number>
+      <po-input name="input" p-label="Máquina" class="po-md-9"></po-input>
+    </div>
+  </div>
+</po-page-default>
